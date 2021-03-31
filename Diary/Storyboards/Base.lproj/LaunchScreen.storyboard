@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wes-aB-IBB">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiaryLogo" translatesAutoresizingMaskIntoConstraints="NO" id="uOO-sY-ygi">
+                                        <rect key="frame" x="262" y="423" width="500" height="500"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="250" id="Ngl-zU-utM">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="500"/>
+                                            </constraint>
+                                            <constraint firstAttribute="width" constant="250" id="glj-zf-Yef">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="500"/>
+                                            </constraint>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="Ngl-zU-utM"/>
+                                                <exclude reference="glj-zf-Yef"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <mask key="constraints">
+                                                <include reference="Ngl-zU-utM"/>
+                                                <include reference="glj-zf-Yef"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Diary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U3u-IN-qR0">
+                                        <rect key="frame" x="402.5" y="1196" width="219" height="120"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                        </variation>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiaryLogo" translatesAutoresizingMaskIntoConstraints="NO" id="1QN-nw-16v">
+                                        <rect key="frame" x="165" y="85" width="150" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="o5H-7g-ViH">
+                                                <variation key="heightClass=compact-widthClass=compact" constant="150"/>
+                                            </constraint>
+                                            <constraint firstAttribute="width" constant="50" id="ufN-t0-tk4">
+                                                <variation key="heightClass=compact-widthClass=compact" constant="150"/>
+                                            </constraint>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="o5H-7g-ViH"/>
+                                                <exclude reference="ufN-t0-tk4"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=compact-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="o5H-7g-ViH"/>
+                                                <include reference="ufN-t0-tk4"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Diary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lqY-0g-DwG">
+                                        <rect key="frame" x="217" y="266" width="46" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=compact-widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        </variation>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiaryLogo" translatesAutoresizingMaskIntoConstraints="NO" id="JyA-79-kCC">
+                                        <rect key="frame" x="329" y="121.66666666666669" width="150" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="DNd-k8-gp0"/>
+                                            <constraint firstAttribute="width" constant="150" id="Z4c-wj-2Kh"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="DNd-k8-gp0"/>
+                                                <exclude reference="Z4c-wj-2Kh"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=compact-widthClass=regular">
+                                            <mask key="constraints">
+                                                <include reference="DNd-k8-gp0"/>
+                                                <include reference="Z4c-wj-2Kh"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Diary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JOZ-cY-I6J">
+                                        <rect key="frame" x="381" y="324" width="46" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=compact-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        </variation>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiaryLogo" translatesAutoresizingMaskIntoConstraints="NO" id="BKU-DQ-IR5">
+                                        <rect key="frame" x="107" y="309" width="200" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="07F-LC-P8j"/>
+                                            <constraint firstAttribute="height" constant="200" id="2e2-sr-2Ql"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="07F-LC-P8j"/>
+                                                <exclude reference="2e2-sr-2Ql"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="07F-LC-P8j"/>
+                                                <include reference="2e2-sr-2Ql"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Diary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQY-NV-tFh">
+                                        <rect key="frame" x="173.33333333333334" y="607" width="67.666666666666657" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="1QN-nw-16v" firstAttribute="centerY" secondItem="Wes-aB-IBB" secondAttribute="centerY" id="3rg-m3-A4C"/>
+                                    <constraint firstAttribute="bottom" secondItem="U3u-IN-qR0" secondAttribute="bottom" constant="230" id="4l9-WM-Z18">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="30"/>
+                                    </constraint>
+                                    <constraint firstItem="U3u-IN-qR0" firstAttribute="centerX" secondItem="Wes-aB-IBB" secondAttribute="centerX" id="765-Sp-m8J"/>
+                                    <constraint firstItem="JOZ-cY-I6J" firstAttribute="centerX" secondItem="Wes-aB-IBB" secondAttribute="centerX" id="7cn-Or-3bK"/>
+                                    <constraint firstItem="fQY-NV-tFh" firstAttribute="centerX" secondItem="Wes-aB-IBB" secondAttribute="centerX" id="8Ic-mh-aRa"/>
+                                    <constraint firstItem="uOO-sY-ygi" firstAttribute="centerY" secondItem="Wes-aB-IBB" secondAttribute="centerY" id="9Cs-3V-mQI"/>
+                                    <constraint firstAttribute="bottom" secondItem="lqY-0g-DwG" secondAttribute="bottom" constant="30" id="BGf-Gw-6nK"/>
+                                    <constraint firstAttribute="bottom" secondItem="fQY-NV-tFh" secondAttribute="bottom" constant="175" id="BLa-tj-pRh"/>
+                                    <constraint firstItem="1QN-nw-16v" firstAttribute="centerX" secondItem="Wes-aB-IBB" secondAttribute="centerX" id="C83-to-giL"/>
+                                    <constraint firstItem="BKU-DQ-IR5" firstAttribute="centerY" secondItem="Wes-aB-IBB" secondAttribute="centerY" id="UFA-cp-SeS"/>
+                                    <constraint firstAttribute="bottom" secondItem="JOZ-cY-I6J" secondAttribute="bottom" constant="45" id="XaF-Cc-QCd"/>
+                                    <constraint firstItem="uOO-sY-ygi" firstAttribute="centerX" secondItem="Wes-aB-IBB" secondAttribute="centerX" id="ZFr-jo-vyg"/>
+                                    <constraint firstItem="JyA-79-kCC" firstAttribute="centerY" secondItem="Wes-aB-IBB" secondAttribute="centerY" id="hmJ-94-PY6"/>
+                                    <constraint firstItem="BKU-DQ-IR5" firstAttribute="centerX" secondItem="Wes-aB-IBB" secondAttribute="centerX" id="hnz-uq-Nv4"/>
+                                    <constraint firstItem="lqY-0g-DwG" firstAttribute="centerX" secondItem="Wes-aB-IBB" secondAttribute="centerX" id="j0R-b0-Ax5"/>
+                                    <constraint firstItem="JyA-79-kCC" firstAttribute="centerX" secondItem="Wes-aB-IBB" secondAttribute="centerX" id="rwl-HL-7hC"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="uOO-sY-ygi"/>
+                                        <exclude reference="U3u-IN-qR0"/>
+                                        <exclude reference="1QN-nw-16v"/>
+                                        <exclude reference="lqY-0g-DwG"/>
+                                        <exclude reference="JyA-79-kCC"/>
+                                        <exclude reference="JOZ-cY-I6J"/>
+                                        <exclude reference="BKU-DQ-IR5"/>
+                                        <exclude reference="fQY-NV-tFh"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <exclude reference="3rg-m3-A4C"/>
+                                        <exclude reference="C83-to-giL"/>
+                                        <exclude reference="BGf-Gw-6nK"/>
+                                        <exclude reference="j0R-b0-Ax5"/>
+                                        <exclude reference="hmJ-94-PY6"/>
+                                        <exclude reference="rwl-HL-7hC"/>
+                                        <exclude reference="7cn-Or-3bK"/>
+                                        <exclude reference="XaF-Cc-QCd"/>
+                                        <exclude reference="UFA-cp-SeS"/>
+                                        <exclude reference="hnz-uq-Nv4"/>
+                                        <exclude reference="8Ic-mh-aRa"/>
+                                        <exclude reference="BLa-tj-pRh"/>
+                                        <exclude reference="9Cs-3V-mQI"/>
+                                        <exclude reference="ZFr-jo-vyg"/>
+                                        <exclude reference="4l9-WM-Z18"/>
+                                        <exclude reference="765-Sp-m8J"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="1QN-nw-16v"/>
+                                        <include reference="lqY-0g-DwG"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <include reference="3rg-m3-A4C"/>
+                                        <include reference="C83-to-giL"/>
+                                        <include reference="BGf-Gw-6nK"/>
+                                        <include reference="j0R-b0-Ax5"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <mask key="subviews">
+                                        <include reference="JyA-79-kCC"/>
+                                        <include reference="JOZ-cY-I6J"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <include reference="hmJ-94-PY6"/>
+                                        <include reference="rwl-HL-7hC"/>
+                                        <include reference="7cn-Or-3bK"/>
+                                        <include reference="XaF-Cc-QCd"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="BKU-DQ-IR5"/>
+                                        <include reference="fQY-NV-tFh"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <include reference="UFA-cp-SeS"/>
+                                        <include reference="hnz-uq-Nv4"/>
+                                        <include reference="8Ic-mh-aRa"/>
+                                        <include reference="BLa-tj-pRh"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="subviews">
+                                        <include reference="uOO-sY-ygi"/>
+                                        <include reference="U3u-IN-qR0"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <include reference="9Cs-3V-mQI"/>
+                                        <include reference="ZFr-jo-vyg"/>
+                                        <include reference="4l9-WM-Z18"/>
+                                        <include reference="765-Sp-m8J"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wes-aB-IBB" secondAttribute="trailing" id="5pF-hd-6xp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Wes-aB-IBB" secondAttribute="bottom" id="CkF-2L-O7l"/>
+                            <constraint firstItem="Wes-aB-IBB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jFs-N0-5Fd"/>
+                            <constraint firstItem="Wes-aB-IBB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="wRA-QG-5Om"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DiaryLogo" width="512" height="512"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
