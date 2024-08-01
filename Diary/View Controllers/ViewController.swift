@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         setUpElements()
         
         print(1)
+        print(2)
     }
     
     override func viewWillAppear(_ animated: Bool) {
