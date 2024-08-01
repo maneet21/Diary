@@ -18,6 +18,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         setUpElements()
+        
+        print(1)
     }
     
     override func viewWillAppear(_ animated: Bool) {
